@@ -170,6 +170,10 @@
   color: var(--light);
 }
 
+.portfolio-container{
+  
+}
+
 .portfolio-item .portfolio-btn {
   position: absolute;
   width: 0;
