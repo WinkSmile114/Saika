@@ -186,6 +186,18 @@
   transition: .5s;
 }
 
+.column{
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
   width: calc(100% - 60px);
